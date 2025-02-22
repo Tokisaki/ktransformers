@@ -23,11 +23,11 @@ model:
   # type: transformers
   type: ktransformers
 
-  name: DeepSeek-Coder-V2-Instruct
-  path: deepseek-ai/DeepSeek-V2-Lite-Chat
-  gguf_path: ./DeepSeek-V2-Lite-Chat-GGUF
+  name: DeepSeek-R1-FullofBlook
+  path: /mnt/model
+  gguf_path: /mnt/gguf
 
-  device: cuda:0
+  device: cuda:1
   cache_lens: 8192
 
 web:
